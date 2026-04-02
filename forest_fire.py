@@ -18,5 +18,5 @@ log_reg = LogisticRegression()
 log_reg.fit(X_train, y_train)
 
 pickle.dump(log_reg,open('model.pkl','wb'))
-print"Its done, thanks")
+print("Its done, thanks")
 
